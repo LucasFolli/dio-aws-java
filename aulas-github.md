@@ -23,5 +23,11 @@ Versionar código é criar um registro histórico das alterações nesse código
 | git clone [link do repositório]                  | Faz uma cópia de um repositório remoto para a pasta escolhida. |
 | git checkout -b [nome da branch]                 | Cria nova branch com o nome selecionado. |
 | git checkout [nome da branch]                    | Retorna para a branch selecionada. |
-| git merge [nome da branch]                       | Mistura a branch nomeada com a branch main. |
+| git merge [nome da branch]                       | Mistura a branch nomeada com a branch atual. |
 | git branch -d [nome da branch]                   | Deleta a branch selecionada. |
+| git branch -v                                    | Exibe os últimos commits de cada branch existente. |
+| git branch                                       | Exibe todas as branchs existentes no repositório. |
+
+### O que é branch?
+Branch ou ramo em português é uma ramificação do projeto, que serve para ajudar a equipe a consertar bugs, inserir novas funcionalidades, separando o trabalho em andamento do trabalho feito (estável).
+Ajuda a evitar uma confusão danada em projetos grandes, com participação de muitas pessoas, evitando que todos enviem alterações ao mesmo lugar - o que vai ocasionar conflitos e erros.
